@@ -6,12 +6,12 @@ license     = "MIT"
 srcDir = "src"
 
 requires "nim >= 1.4.8"
-requires "vmath == 1.1.0"
+requires "vmath == 1.1.4"
 requires "chroma == 0.2.5"
 requires "zippy == 0.8.1"
 requires "flatty == 0.2.4"
 requires "nimsimd == 1.0.0"
-requires "https://github.com/Endermanbugzjfc/bumpy/1cad233203b9ba0b741420945a31de207de60bfc"
+requires "https://github.com/Endermanbugzjfc/bumpy#987eb0d2270e998f9db317840e3f3608527274ee"
 
 task bindings, "Generate bindings":
 
